@@ -1,0 +1,19 @@
+.footer {
+    position: relative;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(115, 202, 115);
+    color: black;
+    text-align: left;
+}
+.column {
+    float: left;
+    width: 100%;
+}
+
+.row {
+    display: table;
+    margin: auto;
+    padding: 15px;
+}

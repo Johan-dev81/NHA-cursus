@@ -1,0 +1,38 @@
+  <!-- <body>
+<app-camping-invoer (campingCreate)="onCampingCreated($event)"></app-camping-invoer>
+<app-camping [campingList]="campings"></app-camping>
+<br><br>
+<app-camping-registratie (campingRegistratieCreate)="onCampingRegistratieCreated($event)"></app-camping-registratie>
+<app-camping [campingRegistratieList]="registratie"></app-camping>
+<app-child (uitvoerCreate)="onChildInvoerCreated($event)"></app-child>
+<app-parent [invoerWaarde]="invoer"></app-parent>
+    <a routerLink="/">Parent</a> | <a routerLink="child">Child</a>
+</body> -->
+
+<div class="page_framework">
+    <div class="navigation">
+                <style>
+            a:link {
+                text-decoration: none;
+                color: #333;
+            }
+            a:visited{
+                text-decoration: none;
+                color: #333;
+            }
+                          </style>
+                          
+        <ul>
+            <li><a routerLink="/">Home</a></li>
+            <li><a routerLink="/child">Prijslijst</a></li>
+            <li><a routerLink="/child2">Activiteiten</a>
+                            <ul>
+                <li><a routerLink="child2a">Wandelen</a></li>
+                <li><a routerLink="child2b">Kanoën</a></li>
+            </ul>
+            
+        </li>
+        </ul>
+        </div>
+        <router-outlet></router-outlet>
+        <app-footer></app-footer>

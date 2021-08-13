@@ -1,0 +1,26 @@
+table.prijslijst {
+    border: 1px solid #a6aac6;
+    border-collapse: collapse;
+    margin:auto;
+}
+table.prijslijst td {
+    border: 1px solid #a6aac6;
+    text-align: right;
+    padding: 0.2em;
+}
+table.prijslijst th {
+    border: 1px solid #828282;
+    background-color: #cbcbcb;
+    font-weight: bold;
+    text-align: center;
+    padding: 0.2em;
+}
+table.prijslijst caption {
+    font-size: larger;
+    font-weight: bold;
+    background-color: #bcbcbc;
+    color:  #111;
+    padding:  0.4em 0 0.4em 0;
+    text-align: center;
+    caption-side: top;
+}

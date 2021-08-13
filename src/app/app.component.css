@@ -1,0 +1,43 @@
+body {background: rgb(163, 153, 153)}
+
+.page_framework {
+    width: 100%;
+    height: 100%;
+    background-color: rgb(212, 252, 253);
+}
+
+.navigation {
+        width: 100%;
+        margin: auto;
+        background-color: rgb(115, 202,115);
+}
+
+.navigation ul li {
+        font: "Verdana";
+        font-size: 18px;
+        color: #333;
+        display: inline-block;
+        padding: 15px;
+        position: relative;
+    }
+
+    .navigation ul li ul {
+        display: none;
+    }
+
+    .navigation ul li:hover {
+        background-color: rgb(44, 199, 44);
+    }
+
+    .navigation ul li:hover ul {
+        display: block;
+        position: relative;
+        margin-top: 15px;
+        width: 200px;
+        left: 0;
+    }
+
+    .navigation ul li:hover ul li {
+        display: block;
+        background-color: rgb(182, 204, 182);
+    }
